@@ -89,7 +89,7 @@ await updateDoc(doc(db,"userConnections",data.user.uid),{
      <input type="text" value={text} placeholder='Type something....' onChange={e=>setText(e.target.value)}/>
 
      <div className="send">
-      <img src={Clip} alt="" />
+      <img className="clips" src={Clip} alt="" />
       <input type="file" style={{display:"none"}} id="file" onChange={e=>setImg(e.target.files[0])}/>
       <label htmlFor="file">
         <img src={Img} alt="" />

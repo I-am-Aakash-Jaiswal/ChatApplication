@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <span className='logo'>ssup!</span>
-        <div className='userChat'>
+        <div className='user'>
             <img src={currentUser.photoURL} alt="" />
             <span>{currentUser.displayName}</span>
             <button onClick={()=>signOut(auth)}>Logout</button>

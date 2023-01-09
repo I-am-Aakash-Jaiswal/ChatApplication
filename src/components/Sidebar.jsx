@@ -20,7 +20,9 @@ function Sidebar() {
         <Navbar/>
         <Search/>
         {/* {(flag)?<span>No current chats</span>: */}
+        {/* <div className="userChatCollection" style={{overflowX: "hidden", overflowY :"auto", height:"85%"}}> */}
         <Chats/>
+        {/* </div> */}
     </div>
   )
 }
